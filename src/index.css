@@ -1,0 +1,17 @@
+:root {
+  background-color: hsl(30, 54%, 90%);
+  box-sizing: border-box;
+  margin: 70px 0px;
+  padding: 0;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 375px) {
+  :root {
+    margin: 0px 0px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+  }
+}
